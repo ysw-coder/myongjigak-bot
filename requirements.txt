@@ -1,0 +1,3 @@
+slack-bolt
+flask
+google-generativeai
