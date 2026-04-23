@@ -1,3 +1,4 @@
 slack-bolt
 flask
 google-generativeai
+requests
