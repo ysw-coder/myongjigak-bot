@@ -32,7 +32,7 @@ app = App(
 )
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-2.0-flash-exp")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 SYSTEM_PERSONA = """당신은 '명지'입니다. 명지각 숙소에서 일하는 베테랑 운영매니저예요.
 신입 직원이나 동료들이 운영 관련해서 슬랙으로 물어보면 친근하게 도와주는 역할이에요.
