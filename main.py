@@ -19,7 +19,7 @@ genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def ask_gemini(user_text):
-    prompt = f"""당신은 명지각 숙소의 운영 도우미 AI '명지AI'입니다.
+    prompt = f"""당신은 명지각 숙소의 운영 도우미 AI '명지'입니다.
 아래 운영 매뉴얼을 참고하여 질문에 친절하고 간결하게 답변해주세요.
 매뉴얼에 없는 내용은 "매뉴얼에 없는 내용이에요 😅"라고 답해주세요.
 
